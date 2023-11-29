@@ -1,0 +1,33 @@
+.users {
+  display: grid;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.users__title {
+  text-align: center;
+}
+
+li,
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+
+.users__wrapper {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+}
+
+.users__sort {
+  /* margin-top: 5px; */
+  text-align: center;
+}
+
+p {
+  margin: 5px;
+  font-weight: 700;
+}
